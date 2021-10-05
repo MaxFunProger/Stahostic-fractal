@@ -43,7 +43,7 @@ private:
     Ui::MainWindow *ui;
     QGraphicsScene *scene;
     void GenerateFractal();
-    void rec(cord, double, QColor, QColor, QColor, QColor);
+    void rec(cord, double, QColor, QColor, QColor, QColor, QImage*);
     QColor lu, ru, ld, rd;
 };
 #endif // MAINWINDOW_H
